@@ -1,7 +1,7 @@
 {
-  "name": "element-theme",
-  "version": "2.0.1",
-  "description": "Theme generator cli tool for Element",
+  "name": "element-up-theme",
+  "version": "1.0.0",
+  "description": "Theme generator cli tool for Element and ElementUp",
   "bin": {
     "element-theme": "./bin/element-theme",
     "et": "./bin/element-theme"
@@ -24,18 +24,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElementUI/element-theme.git"
+    "url": "git@github.com:savoygu/element-up-theme.git"
   },
   "keywords": [
     "element-ui",
+    "element-up",
     "vue",
     "theme",
     "cli"
   ],
   "bugs": {
-    "url": "https://github.com/ElementUI/element-theme/issues"
+    "url": "https://github.com/savoygu/element-up-theme/issues"
   },
-  "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
+  "author": "savoygu <savoygu@gmail.com> (https://github.com/savoygu)",
+  "contributors": [
+    "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)"
+  ],
   "engines": {
     "node": ">=0.12.0"
   },
