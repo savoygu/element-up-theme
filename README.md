@@ -6,19 +6,19 @@
 
 ![](./media/element.gif)
 
-> The current version is compatible with element-ui@2.x. For element-ui@1.x, please check out the legacy branch.
+> The current version is compatible with element-ui@2.x and element-up@0.x. For element-ui@1.x, please check out the legacy branch.
 
 ## Installation
 install local or global
 ```shell
-npm i element-theme -D
+npm i element-up-theme -D
 ```
 
-install `theme-chalk`
+install `up-theme-chalk`
 ```shell
-npm i element-theme-chalk -D
+npm i element-up-theme-chalk -D
 # or from github
-npm i https://github.com/ElementUI/theme-chalk -D
+npm i https://github.com/savoygu/up-theme-chalk -D
 ```
 
 ## CLI
@@ -35,7 +35,7 @@ et [--config variable file path] [--out theme path] [--minimize]
 
 ## Node API
 ```javascript
-var et = require('element-theme')
+var et = require('element-up-theme')
 
 // watch mode
 et.watch({
@@ -53,10 +53,10 @@ et.run({
 
 ## Options
 ### config
-Variable file path, default `./element-variables.css`.
+Variable file path, default `./element-up-variables.css`.
 
 ### out
-Theme output path, default `./theme`.
+Theme output path, default `./up-theme`.
 
 ### minimize
 Compressed file.
@@ -71,14 +71,14 @@ watch variable file changes then build.
 A lists of components that you want to generate themes for.  All by default.
 
 ## Config
-You can configure some options in `element-theme` by putting it in package.json:
+You can configure some options in `element-up-theme` by putting it in package.json:
 ```json
 {
-  "element-theme": {
+  "element-up-theme": {
     "browsers": ["ie > 9", "last 2 versions"],
-    "out": "./theme",
-    "config": "./element-variables.css",
-    "theme": "element-theme-chalk",
+    "out": "./up-theme",
+    "config": "./element-up-variables.css",
+    "theme": "element-up-theme-chalk",
     "minimize": false,
     "components": ["button", "input"]
   }

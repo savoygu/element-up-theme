@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Theme generator cli tool for Element and ElementUp",
   "bin": {
-    "element-theme": "./bin/element-theme",
-    "et": "./bin/element-theme"
+    "element-up-theme": "./bin/element-theme",
+    "eut": "./bin/element-theme"
   },
   "files": [
     "bin",
@@ -62,12 +62,7 @@
   "devDependencies": {
     "element-theme-chalk": "^2.0.0-alpha.1",
     "element-ui": "^2.8.2",
-    "element-up-theme-chalk": "^0.5.1",
+    "element-up-theme-chalk": "^0.5.2",
     "xo": "^0.17.0"
-  },
-  "element-theme": {
-    "out": "./up-theme",
-    "config": "./element-up-variables.scss",
-    "theme": "element-up-theme-chalk"
   }
 }
