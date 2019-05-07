@@ -19,7 +19,8 @@
     "rule": {
       "semi": 0,
       "unicorn/no-process-exit": 0,
-      "import/no-dynamic-require": 0
+      "import/no-dynamic-require": 0,
+      "import/no-unresolved": 0
     }
   },
   "repository": {
@@ -55,10 +56,18 @@
     "gulp-nop": "0.0.3",
     "gulp-sass": "^3.1.0",
     "ora": "^0.3.0",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "sass-module-importer": "^1.4.0"
   },
   "devDependencies": {
     "element-theme-chalk": "^2.0.0-alpha.1",
+    "element-ui": "^2.8.2",
+    "element-up-theme-chalk": "^0.5.1",
     "xo": "^0.17.0"
+  },
+  "element-theme": {
+    "out": "./up-theme",
+    "config": "./element-up-variables.scss",
+    "theme": "element-up-theme-chalk"
   }
 }
