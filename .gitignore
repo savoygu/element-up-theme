@@ -2,3 +2,7 @@ node_modules
 .DS_Store
 npm-debug*
 .idea
+theme
+up-theme
+element-up-variables.scss
+element-variables.scss
