@@ -46,7 +46,8 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "element-theme-chalk": "*"
+    "element-theme-chalk": "*",
+    "element-up-theme-chalk": "*"
   },
   "dependencies": {
     "commander": "^2.9.0",

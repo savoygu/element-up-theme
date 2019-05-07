@@ -1,4 +1,5 @@
 # element-up-theme
+
 [![Build Status](https://travis-ci.org/ElementUI/element-theme.svg?branch=master)](https://travis-ci.org/ElementUI/element-theme)
 [![npm](https://img.shields.io/npm/v/element-theme.svg)](https://www.npmjs.com/package/element-theme)
 
@@ -9,12 +10,15 @@
 > The current version is compatible with element-ui@2.x and element-up@0.x. For element-ui@1.x, please check out the legacy branch.
 
 ## Installation
+
 install local or global
+
 ```shell
 npm i element-up-theme -D
 ```
 
 install `up-theme-chalk`
+
 ```shell
 npm i element-up-theme-chalk -D
 # or from github
@@ -22,29 +26,31 @@ npm i https://github.com/savoygu/up-theme-chalk -D
 ```
 
 ## CLI
+
 ```shell
 # init variables file
-et --init [file path]
+eut --init [file path]
 
 # watch then build
-et --watch [--config variable file path] [--out theme path]
+eut --watch [--config variable file path] [--out theme path]
 
 # build
-et [--config variable file path] [--out theme path] [--minimize]
+eut [--config variable file path] [--out theme path] [--minimize]
 ```
 
 ## Node API
+
 ```javascript
-var et = require('element-up-theme')
+var eut = require('element-up-theme')
 
 // watch mode
-et.watch({
+eut.watch({
   config: 'variables/path',
   out: 'output/path'
 })
 
 // build
-et.run({
+eut.run({
   config: 'variables/path',
   out: 'output/path',
   minimize: true
@@ -52,26 +58,35 @@ et.run({
 ```
 
 ## Options
+
 ### config
+
 Variable file path, default `./element-up-variables.css`.
 
 ### out
+
 Theme output path, default `./up-theme`.
 
 ### minimize
+
 Compressed file.
 
 ### browsers
+
 set browsers, default `['ie > 9', 'last 2 versions']`.
 
 ### watch
+
 watch variable file changes then build.
 
 ### components
+
 A lists of components that you want to generate themes for.  All by default.
 
 ## Config
+
 You can configure some options in `element-up-theme` by putting it in package.json:
+
 ```json
 {
   "element-up-theme": {
@@ -86,4 +101,5 @@ You can configure some options in `element-up-theme` by putting it in package.js
 ```
 
 ## License
+
 MIT
