@@ -1,8 +1,8 @@
-# element-theme
+# element-up-theme
 [![Build Status](https://travis-ci.org/ElementUI/element-theme.svg?branch=master)](https://travis-ci.org/ElementUI/element-theme)
 [![npm](https://img.shields.io/npm/v/element-theme.svg)](https://www.npmjs.com/package/element-theme)
 
-> Theme generator cli tool for Element.
+> Theme generator cli tool for Element and ElementUp.
 
 ![](./media/element.gif)
 
