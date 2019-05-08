@@ -46,7 +46,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "element-theme-chalk": "*",
+    "element-ui": "*",
     "element-up-theme-chalk": "*"
   },
   "dependencies": {
@@ -61,7 +61,6 @@
     "sass-module-importer": "^1.4.0"
   },
   "devDependencies": {
-    "element-theme-chalk": "^2.0.0-alpha.1",
     "element-ui": "^2.8.2",
     "element-up-theme-chalk": "^0.5.2",
     "xo": "^0.17.0"
