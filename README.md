@@ -5,6 +5,8 @@
 
 > Theme generator cli tool for Element and ElementUp.
 
+![](./media/element-up.gif)
+
 ![](./media/element.gif)
 
 > The current version is compatible with element-ui@2.x and element-up@0.x. For element-ui@1.x, please check out the legacy branch.
