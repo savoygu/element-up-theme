@@ -1,6 +1,6 @@
 {
   "name": "element-up-theme",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Theme generator cli tool for Element and ElementUp",
   "bin": {
     "element-up-theme": "./bin/element-theme",
